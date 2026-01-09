@@ -173,7 +173,7 @@ nav {
   padding: 1rem;
   line-height: 1.5;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -193,5 +193,9 @@ nav {
 
   .hero-images .img {
     width: 20vw;
+  }
+
+  .message-container .message p {
+    font-size: 1rem;
   }
 }
